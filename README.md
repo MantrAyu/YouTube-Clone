@@ -56,7 +56,7 @@ A responsive YouTube clone built with **React**, featuring real-time feed update
 
 ## Project Structure
 
-youtube-clone/ 
+youtube-clone/ <br/>
 │ 
 ├── public/ 
 │ └── index.html 
