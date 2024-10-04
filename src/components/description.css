@@ -1,0 +1,11 @@
+/* Ensure links in the description are blue and underlined */
+.description a {
+    color: blue;
+    text-decoration: underline;
+  }
+  
+  /* Preserve line breaks and spaces in the description */
+  .description {
+    white-space: pre-wrap;
+  }
+  
