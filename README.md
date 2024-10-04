@@ -57,20 +57,20 @@ A responsive YouTube clone built with **React**, featuring real-time feed update
 ## Project Structure
 
 youtube-clone/ <br/>
-│ 
-├── public/ 
-│ └── index.html 
-├── src/ 
-│ ├── components/ # React components 
-│ ├── pages/ # Page components (Home, Video, Search) 
-│ ├── redux/ # Redux slices and store 
-│ ├── services/ # API services (Axios calls) 
-│ ├── App.js # Main app component 
-│ ├── index.js # Entry point 
-│ └── ... 
-├── .env # Environment variables 
-├── package.json # Project dependencies 
-└── README.md # Documentation
+│ <br/>
+├── public/ <br/>
+│ └── index.html <br/>
+├── src/ <br/>
+│ ├── components/ # React components <br/>
+│ ├── pages/ # Page components (Home, Video, Search) <br/>
+│ ├── redux/ # Redux slices and store <br/>
+│ ├── services/ # API services (Axios calls) <br/>
+│ ├── App.js # Main app component <br/>
+│ ├── index.js # Entry point <br/>
+│ └── ... <br/>
+├── .env # Environment variables <br/>
+├── package.json # Project dependencies <br/>
+└── README.md # Documentation <br/>
 
 
 ## API Integration
