@@ -25,6 +25,53 @@ A responsive YouTube clone built with **React**, featuring real-time feed update
 
 1. Clone the repository:
 
-```bash
-git clone https://github.com/yourusername/youtube-clone.git
-cd youtube-clone
+    ```bash
+    git clone https://github.com/yourusername/youtube-clone.git
+    cd youtube-clone
+    ```
+
+2. Install dependencies:
+
+    ```bash
+    npm install
+    ```
+
+3. Get a YouTube API Key:
+
+- Visit [Google Developer Console](https://console.developers.google.com/) and create a new project.
+- Enable the YouTube Data API v3 for your project.
+- Create an API key.
+
+4. Create a `.env` file in the root of the project and add your API key:
+
+    ```bash
+    REACT_APP_YOUTUBE_API_KEY=your_api_key_here
+    ```
+
+5. Start the application:
+
+    ```bash
+    npm start
+    ```
+
+## Project Structure
+
+youtube-clone/ │ ├── public/ │ └── index.html ├── src/ │ ├── components/ # React components │ ├── pages/ # Page components (Home, Video, Search) │ ├── redux/ # Redux slices and store │ ├── services/ # API services (Axios calls) │ ├── App.js # Main app component │ ├── index.js # Entry point │ └── ... ├── .env # Environment variables ├── package.json # Project dependencies └── README.md # Documentation
+
+
+## API Integration
+
+### YouTube Data API
+
+- The YouTube Data API is used to fetch videos, search results, and video details.
+- You'll need a valid API key from Google to access the YouTube Data API.
+
+### Search Suggestions API
+
+- A third-party API is used to power search suggestions, enhancing the user experience by providing relevant results.
+
+## Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check out the code.
