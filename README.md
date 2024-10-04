@@ -1,8 +1,64 @@
-# React + Vite
+# YouTube Clone
+A responsive YouTube clone built with React, featuring real-time feed updates, infinite scrolling, search suggestions powered by a third-party API, video preview on hover, and routing using React Router. The application uses React Hooks and Redux for state management, and integrates with the YouTube API to fetch video data.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Features
+Real-Time Feed Updates: Video feed updates dynamically as new content is available.
+Infinite Scrolling: Load more videos as you scroll, providing a seamless experience.
+Responsive Design: Fully responsive layout for all devices (mobile, tablet, desktop).
+Search Suggestions: Search suggestions powered by a third-party API for enhanced search functionality.
+Video Preview on Hover: Videos start playing automatically when you hover over them, similar to YouTube.
+Routing: Implemented using React Router for seamless navigation between different parts of the app.
+State Management: State management is handled using React Hooks and Redux.
+YouTube API Integration: Fetch video data, search results, and video details using the YouTube API.
 
-Currently, two official plugins are available:
+# Tech Stack
+Frontend: React, Redux, React Router
+API: YouTube Data API v3
+Styling: CSS, Flexbox, Grid
+State Management: React Hooks, Redux
+Other Tools: Axios (for API requests)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Installation
+1.Clone the repository:
+  git clone https://github.com/MantrAyu/YouTube-Clone.git
+  cd youtube-clone
+2.Install dependencies:
+  npm install
+3.Get a YouTube API Key:
+  Visit Google Developer Console and create a new project.
+  Enable the YouTube Data API v3 for your project.
+  Create an API key.
+4.Create a .env file in the root of the project and add your API key:
+  REACT_APP_YOUTUBE_API_KEY=your_api_key_here
+5.Start the application:
+  npm start
+
+# Project Structure 
+youtube-clone/
+│
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/        # React components
+│   ├── pages/             # Page components (Home, Video, Search)
+│   ├── redux/             # Redux slices and store
+│   ├── services/          # API services (Axios calls)
+│   ├── App.js             # Main app component
+│   ├── index.js           # Entry point
+│   └── ...
+├── .env                   # Environment variables
+├── package.json           # Project dependencies
+└── README.md              # Documentation
+
+# API Integration
+YouTube Data API
+ The YouTube Data API is used to fetch videos, search results, and video details.
+ You'll need a valid API key from Google to access the YouTube Data API.
+Search Suggestions API
+ A third-party API is used to power search suggestions, enhancing the user experience by providing relevant results.
+
+# Contributing
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check out the code.
+  
