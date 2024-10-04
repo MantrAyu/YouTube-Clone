@@ -59,15 +59,34 @@ A responsive YouTube clone built with **React**, featuring real-time feed update
 youtube-clone/ <br/>
 │ <br/>
 ├── public/ <br/>
-│ └── index.html <br/>
+│ └── logo.png <br/>
+│ └── profile.jpg <br/>
+│ └── vite.svg <br/>
 ├── src/ <br/>
-│ ├── components/ # React components <br/>
-│ ├── pages/ # Page components (Home, Video, Search) <br/>
-│ ├── redux/ # Redux slices and store <br/>
-│ ├── services/ # API services (Axios calls) <br/>
-│ ├── App.js # Main app component <br/>
-│ ├── index.js # Entry point <br/>
-│ └── ... <br/>
+│ ├── assets/ <br/>
+│ │  └── react.jsx <br/>
+│ ├── components/ <br/>
+│ │  └── Home.jsx <br/>
+│ │  └── ListItems.jsx.jsx <br/>
+│ │  └── Navbar.jsx <br/>
+│ │  └── PlayingVideo.jsx <br/>
+│ │  └── Search.jsx <br/>
+│ │  └── SearchCard.jsx <br/>
+│ │  └── SideBax.jsx <br/>
+│ │  └── SuggestedVideo.jsx <br/>
+│ │  └── Video.jsx <br/>
+│ │  └── description.css <br/>
+│ │  └── styles.css <br/>
+│ ├── context/ <br/>
+│ │  └── AuthProvider.jsx <br/>
+│ ├── loader/ <br/>
+│ │  └── Loading.jsx <br/>
+│ │  └── Time.jsx <br/>
+│ ├── utils/ # API services (Axios calls) <br/>
+│ │  └── rapidapi.js <br/>
+│ ├── App.js <br/>
+│ ├── index.css <br/>
+│ └── main.jsx <br/>
 ├── .env # Environment variables <br/>
 ├── package.json # Project dependencies <br/>
 └── README.md # Documentation <br/>
