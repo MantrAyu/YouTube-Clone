@@ -66,9 +66,9 @@ youtube-clone/ <br/>
 │ ├── assets/ <br/>
 │ │  └── react.jsx <br/>
 │ ├── components/ <br/>
-│ │  └── Home.jsx <br/>
-│ │  └── ListItems.jsx.jsx <br/>
-│ │  └── Navbar.jsx <br/>
+│ │ │ └── Home.jsx <br/>
+│ │ │ └── ListItems.jsx.jsx <br/>
+│ │ │ └── Navbar.jsx <br/>
 │ │  └── PlayingVideo.jsx <br/>
 │ │  └── Search.jsx <br/>
 │ │  └── SearchCard.jsx <br/>
