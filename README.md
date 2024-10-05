@@ -26,7 +26,7 @@ A responsive YouTube clone built with **React**, featuring real-time feed update
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/youtube-clone.git
+    git clone https://github.com/MantrAyu/YouTube-Clone.git
     cd youtube-clone
     ```
 
