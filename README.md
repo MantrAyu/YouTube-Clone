@@ -64,6 +64,7 @@ Click the image below to watch the demo video:
 
 ## Project Structure
 
+```bash
 youtube-clone/ <br/>
 │ <br/>
 ├── public/ <br/>
@@ -98,6 +99,7 @@ youtube-clone/ <br/>
 ├── .env # Environment variables <br/>
 ├── package.json # Project dependencies <br/>
 └── README.md # Documentation <br/>
+```
 
 
 ## API Integration
