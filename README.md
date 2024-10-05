@@ -65,40 +65,40 @@ Click the image below to watch the demo video:
 ## Project Structure
 
 ```bash
-youtube-clone/ <br/>
-│ <br/>
-├── public/ <br/>
-│ └── logo.png <br/>
-│ └── profile.jpg <br/>
-│ └── vite.svg <br/>
-├── src/ <br/>
-│ ├── assets/ <br/>
-│ │  └── react.jsx <br/>
-│ ├── components/ <br/>
-│ │  └── Home.jsx <br/>
-│ │  └── ListItems.jsx.jsx <br/>
-│ │  └── Navbar.jsx <br/>
-│ │  └── PlayingVideo.jsx <br/>
-│ │  └── Search.jsx <br/>
-│ │  └── SearchCard.jsx <br/>
-│ │  └── SideBax.jsx <br/>
-│ │  └── SuggestedVideo.jsx <br/>
-│ │  └── Video.jsx <br/>
-│ │  └── description.css <br/>
-│ │  └── styles.css <br/>
-│ ├── context/ <br/>
-│ │  └── AuthProvider.jsx <br/>
-│ ├── loader/ <br/>
-│ │  └── Loading.jsx <br/>
-│ │  └── Time.jsx <br/>
-│ ├── utils/ # API services (Axios calls) <br/>
-│ │  └── rapidapi.js <br/>
-│ ├── App.js <br/>
-│ ├── index.css <br/>
-│ └── main.jsx <br/>
-├── .env # Environment variables <br/>
-├── package.json # Project dependencies <br/>
-└── README.md # Documentation <br/>
+youtube-clone/ 
+│ 
+├── public/ 
+│ └── logo.png 
+│ └── profile.jpg 
+│ └── vite.svg 
+├── src/ 
+│ ├── assets/ 
+│ │   └── react.jsx 
+│ ├── components/ 
+│ │   └── Home.jsx 
+│ │   └── ListItems.jsx.jsx 
+│ │   └── Navbar.jsx 
+│ │   └── PlayingVideo.jsx 
+│ │   └── Search.jsx 
+│ │   └── SearchCard.jsx 
+│ │   └── SideBax.jsx 
+│ │   └── SuggestedVideo.jsx 
+│ │   └── Video.jsx 
+│ │   └── description.css 
+│ │   └── styles.css 
+│ ├── context/ 
+│ │   └── AuthProvider.jsx 
+│ ├── loader/ 
+│ │   └── Loading.jsx 
+│ │   └── Time.jsx 
+│ ├── utils/ # API services (Axios calls) 
+│ │   └── rapidapi.js 
+│ ├── App.js 
+│ ├── index.css 
+│ └── main.jsx 
+├── .env # Environment variables 
+├── package.json # Project dependencies 
+└── README.md # Documentation 
 ```
 
 
