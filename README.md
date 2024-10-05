@@ -2,6 +2,14 @@
 
 A responsive YouTube clone built with **React**, featuring real-time feed updates, infinite scrolling, search suggestions powered by a third-party API, video preview on hover, and routing using **React Router**. The application uses **React Hooks** and **Redux** for state management, and integrates with the YouTube API to fetch video data.
 
+## Demo Video
+
+Click the image below to watch the demo video:
+
+<a href="https://youtu.be/CViU7TpQViY" target="_blank">
+    <img src="https://img.youtube.com/vi/CViU7TpQViY/maxresdefault.jpg" alt="Watch the video" width="750"/>
+</a>
+
 ## Features
 
 - **Real-Time Feed Updates**: Video feed updates dynamically as new content is available.
