@@ -50,7 +50,7 @@ Click the image below to watch the demo video:
 - Enable the YouTube Data API v3 for your project.
 - Create an API key.
 
-4. Create a `.env` file in the root of the project and add your API key:
+4. In the `.env` file in the root of the project and add your API key:
 
     ```bash
     REACT_APP_YOUTUBE_API_KEY=your_api_key_here
